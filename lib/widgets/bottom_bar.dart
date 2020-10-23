@@ -17,8 +17,7 @@ class BottomNavigation extends StatelessWidget {
       appBar: AppBar(
         title: Text("GetX Bottom Bar"),
       ),
-      body: Obx(() =>
-          Center(
+      body: Obx(() => Center(
             child: pages[bottomBarController.currentIndex],
           )),
       bottomNavigationBar: Obx(() => BottomNavigationBar(
